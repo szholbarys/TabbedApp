@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		E8C7B8682CEFA09D007E9EA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B8672CEFA09D007E9EA6 /* AppDelegate.swift */; };
 		E8C7B86A2CEFA09D007E9EA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B8692CEFA09D007E9EA6 /* SceneDelegate.swift */; };
-		E8C7B86C2CEFA09D007E9EA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B86B2CEFA09D007E9EA6 /* ViewController.swift */; };
 		E8C7B86F2CEFA09D007E9EA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C7B86D2CEFA09D007E9EA6 /* Main.storyboard */; };
 		E8C7B8712CEFA09E007E9EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C7B8702CEFA09E007E9EA6 /* Assets.xcassets */; };
 		E8C7B8742CEFA09E007E9EA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C7B8722CEFA09E007E9EA6 /* LaunchScreen.storyboard */; };
+		E8C7B8812CEFAD0F007E9EA6 /* VideoGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B8802CEFAD0F007E9EA6 /* VideoGame.swift */; };
+		E8C7B8842CEFAD33007E9EA6 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B8822CEFAD33007E9EA6 /* GameTableViewCell.swift */; };
+		E8C7B8852CEFAD33007E9EA6 /* GameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8C7B8832CEFAD33007E9EA6 /* GameTableViewCell.xib */; };
+		E8C7B8872CEFADCB007E9EA6 /* GameDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B8862CEFADCB007E9EA6 /* GameDetailsViewController.swift */; };
+		E8C7B8892CEFB908007E9EA6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B8882CEFB908007E9EA6 /* GameViewController.swift */; };
+		E8C7B88B2CEFBE57007E9EA6 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B88A2CEFBE57007E9EA6 /* MovieViewController.swift */; };
+		E8C7B88D2CEFBFAF007E9EA6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B88C2CEFBFAF007E9EA6 /* Movie.swift */; };
+		E8C7B88F2CEFC104007E9EA6 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B88E2CEFC104007E9EA6 /* MovieDetailsViewController.swift */; };
+		E8C7B8922CEFC5E2007E9EA6 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B8902CEFC5E2007E9EA6 /* MovieTableViewCell.swift */; };
+		E8C7B8932CEFC5E2007E9EA6 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8C7B8912CEFC5E2007E9EA6 /* MovieTableViewCell.xib */; };
+		E8C7B8952CEFCA60007E9EA6 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B8942CEFCA60007E9EA6 /* BookViewController.swift */; };
+		E8C7B8982CEFCA8E007E9EA6 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B8962CEFCA8E007E9EA6 /* BookTableViewCell.swift */; };
+		E8C7B8992CEFCA8E007E9EA6 /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8C7B8972CEFCA8E007E9EA6 /* BookTableViewCell.xib */; };
+		E8C7B89B2CEFCAE4007E9EA6 /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B89A2CEFCAE4007E9EA6 /* BookDetailsViewController.swift */; };
+		E8C7B89D2CEFCAFC007E9EA6 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7B89C2CEFCAFC007E9EA6 /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E8C7B8642CEFA09D007E9EA6 /* TabBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C7B8672CEFA09D007E9EA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8C7B8692CEFA09D007E9EA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E8C7B86B2CEFA09D007E9EA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8C7B86E2CEFA09D007E9EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8C7B8702CEFA09E007E9EA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8C7B8732CEFA09E007E9EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8C7B8752CEFA09E007E9EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8C7B8802CEFAD0F007E9EA6 /* VideoGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoGame.swift; sourceTree = "<group>"; };
+		E8C7B8822CEFAD33007E9EA6 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		E8C7B8832CEFAD33007E9EA6 /* GameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameTableViewCell.xib; sourceTree = "<group>"; };
+		E8C7B8862CEFADCB007E9EA6 /* GameDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailsViewController.swift; sourceTree = "<group>"; };
+		E8C7B8882CEFB908007E9EA6 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E8C7B88A2CEFBE57007E9EA6 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		E8C7B88C2CEFBFAF007E9EA6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		E8C7B88E2CEFC104007E9EA6 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		E8C7B8902CEFC5E2007E9EA6 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		E8C7B8912CEFC5E2007E9EA6 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		E8C7B8942CEFCA60007E9EA6 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		E8C7B8962CEFCA8E007E9EA6 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		E8C7B8972CEFCA8E007E9EA6 /* BookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
+		E8C7B89A2CEFCAE4007E9EA6 /* BookDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
+		E8C7B89C2CEFCAFC007E9EA6 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,53 @@
 		E8C7B8662CEFA09D007E9EA6 /* TabBarApp */ = {
 			isa = PBXGroup;
 			children = (
+				E8C7B87D2CEFAC6F007E9EA6 /* Book */,
+				E8C7B87C2CEFAC69007E9EA6 /* Movie */,
+				E8C7B87B2CEFAC56007E9EA6 /* Game */,
 				E8C7B8672CEFA09D007E9EA6 /* AppDelegate.swift */,
 				E8C7B8692CEFA09D007E9EA6 /* SceneDelegate.swift */,
-				E8C7B86B2CEFA09D007E9EA6 /* ViewController.swift */,
 				E8C7B86D2CEFA09D007E9EA6 /* Main.storyboard */,
 				E8C7B8702CEFA09E007E9EA6 /* Assets.xcassets */,
 				E8C7B8722CEFA09E007E9EA6 /* LaunchScreen.storyboard */,
 				E8C7B8752CEFA09E007E9EA6 /* Info.plist */,
 			);
 			path = TabBarApp;
+			sourceTree = "<group>";
+		};
+		E8C7B87B2CEFAC56007E9EA6 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				E8C7B8882CEFB908007E9EA6 /* GameViewController.swift */,
+				E8C7B8802CEFAD0F007E9EA6 /* VideoGame.swift */,
+				E8C7B8822CEFAD33007E9EA6 /* GameTableViewCell.swift */,
+				E8C7B8862CEFADCB007E9EA6 /* GameDetailsViewController.swift */,
+				E8C7B8832CEFAD33007E9EA6 /* GameTableViewCell.xib */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		E8C7B87C2CEFAC69007E9EA6 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				E8C7B88A2CEFBE57007E9EA6 /* MovieViewController.swift */,
+				E8C7B88C2CEFBFAF007E9EA6 /* Movie.swift */,
+				E8C7B88E2CEFC104007E9EA6 /* MovieDetailsViewController.swift */,
+				E8C7B8902CEFC5E2007E9EA6 /* MovieTableViewCell.swift */,
+				E8C7B8912CEFC5E2007E9EA6 /* MovieTableViewCell.xib */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		E8C7B87D2CEFAC6F007E9EA6 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				E8C7B8942CEFCA60007E9EA6 /* BookViewController.swift */,
+				E8C7B89C2CEFCAFC007E9EA6 /* Book.swift */,
+				E8C7B89A2CEFCAE4007E9EA6 /* BookDetailsViewController.swift */,
+				E8C7B8962CEFCA8E007E9EA6 /* BookTableViewCell.swift */,
+				E8C7B8972CEFCA8E007E9EA6 /* BookTableViewCell.xib */,
+			);
+			path = Book;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +192,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8C7B8742CEFA09E007E9EA6 /* LaunchScreen.storyboard in Resources */,
+				E8C7B8932CEFC5E2007E9EA6 /* MovieTableViewCell.xib in Resources */,
+				E8C7B8992CEFCA8E007E9EA6 /* BookTableViewCell.xib in Resources */,
 				E8C7B8712CEFA09E007E9EA6 /* Assets.xcassets in Resources */,
 				E8C7B86F2CEFA09D007E9EA6 /* Main.storyboard in Resources */,
+				E8C7B8852CEFAD33007E9EA6 /* GameTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +207,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8C7B86C2CEFA09D007E9EA6 /* ViewController.swift in Sources */,
+				E8C7B8922CEFC5E2007E9EA6 /* MovieTableViewCell.swift in Sources */,
+				E8C7B8892CEFB908007E9EA6 /* GameViewController.swift in Sources */,
+				E8C7B89D2CEFCAFC007E9EA6 /* Book.swift in Sources */,
+				E8C7B89B2CEFCAE4007E9EA6 /* BookDetailsViewController.swift in Sources */,
+				E8C7B88B2CEFBE57007E9EA6 /* MovieViewController.swift in Sources */,
+				E8C7B8952CEFCA60007E9EA6 /* BookViewController.swift in Sources */,
+				E8C7B8982CEFCA8E007E9EA6 /* BookTableViewCell.swift in Sources */,
+				E8C7B88F2CEFC104007E9EA6 /* MovieDetailsViewController.swift in Sources */,
+				E8C7B8872CEFADCB007E9EA6 /* GameDetailsViewController.swift in Sources */,
+				E8C7B8812CEFAD0F007E9EA6 /* VideoGame.swift in Sources */,
 				E8C7B8682CEFA09D007E9EA6 /* AppDelegate.swift in Sources */,
 				E8C7B86A2CEFA09D007E9EA6 /* SceneDelegate.swift in Sources */,
+				E8C7B88D2CEFBFAF007E9EA6 /* Movie.swift in Sources */,
+				E8C7B8842CEFAD33007E9EA6 /* GameTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
